@@ -1,5 +1,6 @@
 import { TrendChart } from './TrendChart';
 import { ProductCard } from './ProductCard';
+import { NotificationSection } from './NotificationSection';
 import type { ProductAlert } from '../types/productAlert';
 import type { Category } from '../types/productAlert';
 import { Apple, Wheat, Carrot, Leaf } from 'lucide-react';
@@ -93,6 +94,8 @@ export function Dashboard({ products, onBack }: DashboardProps) {
             );
           })}
         </section>
+
+        <NotificationSection />
       </main>
     </div>
   );
