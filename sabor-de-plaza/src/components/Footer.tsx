@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="bg-white border-t border-gray-200 mt-auto">
+    <footer className="bg-white border-t border-fresh-leaf/20 mt-auto">
       <div className="max-w-6xl mx-auto px-4 py-6 sm:py-8">
         <h3 className="text-sm font-semibold text-gray-900 mb-3">
           Criterios de precios
@@ -15,7 +15,7 @@ export function Footer() {
             </span>
           </li>
           <li className="flex flex-wrap items-baseline gap-2">
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-100 text-emerald-800 border border-emerald-200">
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-fresh-mint text-fresh-forest border border-fresh-leaf/40">
               Precio justo
             </span>
             <span>

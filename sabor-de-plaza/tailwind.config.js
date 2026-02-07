@@ -31,9 +31,18 @@ export default {
           600: '#059669',
         },
         accent: {
-          DEFAULT: '#F97316',
-          500: '#F97316',
+          DEFAULT: '#ea580c',
+          500: '#ea580c',
         },
+        fresh: {
+          mint: '#d1fae5',
+          sage: '#a7f3d0',
+          leaf: '#34d399',
+          forest: '#047857',
+        },
+      },
+      backgroundImage: {
+        'hero-pattern': 'linear-gradient(to bottom, rgba(16, 185, 129, 0.85), rgba(5, 150, 105, 0.9))',
       },
     },
   },

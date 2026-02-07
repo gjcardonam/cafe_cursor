@@ -9,7 +9,6 @@ export function NotificationSection() {
     e.preventDefault();
     if (!email.trim()) return;
     setStatus('loading');
-    // Simular envío (aquí conectarías tu backend o servicio de emails)
     setTimeout(() => {
       setStatus('success');
       setEmail('');
@@ -17,7 +16,7 @@ export function NotificationSection() {
   };
 
   return (
-    <section className="mt-12 pt-10 border-t border-emerald-600/20">
+    <section className="mt-12 pt-10 border-t border-fresh-leaf/30">
       <div className="flex items-center gap-3 mb-3">
         <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-orange-100 text-orange-600">
           <Bell className="w-5 h-5" />
@@ -45,7 +44,7 @@ export function NotificationSection() {
             placeholder="tu@correo.com"
             required
             disabled={status === 'loading'}
-            className="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 outline-none transition disabled:opacity-60"
+            className="w-full pl-10 pr-4 py-3 rounded-xl border border-fresh-leaf/30 focus:border-fresh-forest focus:ring-2 focus:ring-fresh-leaf/20 outline-none transition disabled:opacity-60 bg-white"
           />
         </div>
         <button
@@ -58,7 +57,7 @@ export function NotificationSection() {
       </form>
 
       {status === 'success' && (
-        <p className="mt-3 text-sm text-emerald-600">
+        <p className="mt-3 text-sm text-fresh-forest">
           Gracias. Te enviaremos el resumen cada viernes a las 5:00 p. m.
         </p>
       )}

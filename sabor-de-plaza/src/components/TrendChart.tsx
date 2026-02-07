@@ -37,12 +37,12 @@ export function TrendChart({ product }: TrendChartProps) {
       {
         label: `${product.name} (COP)`,
         data: product.history7d,
-        borderColor: '#059669',
-        backgroundColor: 'rgba(5, 150, 105, 0.15)',
+        borderColor: '#047857',
+        backgroundColor: 'rgba(4, 120, 87, 0.18)',
         fill: true,
         tension: 0.3,
         pointRadius: 4,
-        pointBackgroundColor: '#059669',
+        pointBackgroundColor: '#047857',
       },
     ],
   };
